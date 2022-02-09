@@ -8,6 +8,7 @@ Total working experiance is more than 10 years in the following domains:
 * social
 * gambling
 * data presentation
+* fintech
 
 # Skills 
 
