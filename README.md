@@ -1,6 +1,6 @@
 # Summary of Qualifications
 
-Total working experiance is more than 10 years in the following domains:
+Total working experiance is more than 17 years in the following domains:
 
 * aerospace
 * medicine
