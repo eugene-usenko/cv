@@ -43,7 +43,7 @@ Business management tool which functions are:
 | **Tools & Technologies**  | Java, GWT, Tomcat, TypeScript, React/Redux
 
 
-## [Horizon Platform](http://luxofthorizon.com/)
+## Horizon Platform
 
 Data visualization framework based on java and web technologies. 
 
