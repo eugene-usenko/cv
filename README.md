@@ -3,8 +3,8 @@
 Total working experiance is more than 17 years in the following domains:
 
 * aerospace
-* medicine
-* ditial video systems
+* helth care
+* digital video systems
 * social
 * gambling
 * data presentation
@@ -51,14 +51,14 @@ Data visualization framework based on java and web technologies.
 | ------------------------- | -------------------------------------------------- 
 | **Customer**              | UA company
 | **Involvement Duration**  | 2 years
-| **Project Role**          | Senior Developer
+| **Project Role**          | Senior Developer, Full-stack developer
 | **Responsibilities**      | Contribution to the project, bugfix
 | **Project Team Size**     | 5-15 team members(distributed team - Poland/Ukraine)
 | **Tools & Technologies**  | Java SE, GWT, Spring IoC
 
 ## [Caesars Casino](https://www.caesarsgames.com/)
 
-Project is a social casino which is a highload application(~100k DAO) with michroservice architecture. Areas and features I worked on:
+Social casino. This is a highload application(~100k DAO) with michroservice architecture. Areas and features I worked on:
 
 * New feture implementation
 * REST API design
@@ -68,7 +68,7 @@ Project is a social casino which is a highload application(~100k DAO) with michr
 | ------------------------- | -------------------------------------------------- 
 | **Customer**              | IL company
 | **Involvement Duration**  | 8 month
-| **Project Role**          | Teachlead
+| **Project Role**          | Techlead
 | **Responsibilities**      | Technical design, code analyse, refactoring, task decomposition and delegation, technical documentation, code review
 | **Project Team Size**     | 5-15 team members
 | **Tools & Technologies**  | Java SE, [JDBC][19], Spring IoC, [JAX-RS][22], Couchbase, MySQL, Tomcat
@@ -85,7 +85,7 @@ _Weather forecast_ application with advanced features(map animation). Features I
 | ------------------------- | -------------------------------------------------- 
 | **Customer**              | US company
 | **Involvement Duration**  | 9 month
-| **Project Role**          | Teachlead
+| **Project Role**          | Techlead
 | **Responsibilities**      | Technical design, code analyse, refactoring
 | **Project Team Size**     | 2 team members
 | **Tools & Technologies**  | [Android][21], Google Maps API v1/v2, Amazon Maps
@@ -103,7 +103,7 @@ Engine for social network.
 | ------------------------- | -------------------------------------------------- 
 | **Customer**              | UA company
 | **Involvement Duration**  | 9 month
-| **Project Role**          | Senior Developer
+| **Project Role**          | Senior Developer, Full-stack developer
 | **Responsibilities**      | Technical design
 | **Project Team Size**     | 5-8 team members
 | **Tools & Technologies**  | JavaSE, Spring Data/MVC/IoC/Security, MongoDB, Redis, Tomcat
@@ -120,20 +120,20 @@ Engine for social network.
 | ------------------------- | -------------------------------------------------- 
 | **Customer**              | US company
 | **Involvement Duration**  | 9 month
-| **Project Role**          | Teachlead
+| **Project Role**          | Techlead
 | **Responsibilities**      | Technical design
 | **Project Team Size**     | 3 team members
 | **Tools & Technologies**  | [Android][21], JavaSE, [JNI][10], [FFMPEG][11]
 
 ## [Gazzang self test system](http://www.cloudera.com/products/security.html)
 
-Self testing system for cloud based storage.
+Self testing system for cloud based storage for sensitive data.
 
 | Item                      | Description                                       
 | ------------------------- | -------------------------------------------------- 
 | **Customer**              | US company
 | **Involvement Duration**  | 2 month
-| **Project Role**          | Developer
+| **Project Role**          | Developer, Teamlead
 | **Responsibilities**      | Technical design, feature implementation
 | **Project Team Size**     | 3 team members
 | **Tools & Technologies**  | Python
@@ -150,7 +150,7 @@ Self testing system for cloud based storage.
 | ------------------------- | -------------------------------------------------- 
 | **Customer**              | US company
 | **Involvement Duration**  | 14 month
-| **Project Role**          | Developer/Technical leader
+| **Project Role**          | Developer/Techlead
 | **Responsibilities**      | Technical design, feature implementation, refactoring, coaching
 | **Project Team Size**     | 2-5 team members
 | **Tools & Technologies**  | [Android][21], [JNI][10], [FFMPEG][11]
