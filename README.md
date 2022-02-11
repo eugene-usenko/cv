@@ -1,14 +1,17 @@
 # Summary of Qualifications
 
-Total working experiance is more than 17 years in the following domains:
+I have been grown from junior software developer(since 2005) up to Tech/Team Lead. Right now I'm working as a Lead in fin-tech project for one of the company from Big Four, but looking for a new opportunities to grow. Acquiring current role, I have to keep balance between technical and management skills and in case I have a chose, I would  prefer technical direction rather than management. Approximately from 2010 I'm working as lead developer in projects from different domains like healthcare, fin-tech, home security, multimedia, gambling and social gaming. Experienced with:
 
-* aerospace
-* helth care
-* digital video systems
-* social
-* gambling
-* data presentation
-* fintech
+* growing and leading software engineering team, managing developers, and mentoring them
+* leading projects, taking ownership of task assignments and deliverables(support risk assessment, cost and timing, dependence and impact on other solutions / projects)
+* leading end to end software development, from requirements, through architecture, development, testing, delivery, and all associated processes
+* working on technical documentation (e.g. diagrams, architecture design and handover instructions and documents)
+* acting as a communication proxy for the team and customer/management
+* working on complex software systems involving Cloud/On-Prem, in microservices architectures/Mobile
+* agile development processes and best practices
+* span from high-level concepts to low-level details of implementation 
+* planning activities, internal and customer-facing design sessions
+* manage development processes
 
 # Skills 
 
