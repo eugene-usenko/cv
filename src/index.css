@@ -1,0 +1,6 @@
+html,
+body,
+#root,
+#theme-provider {
+  height: 100%;
+}
