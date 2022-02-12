@@ -1,6 +1,7 @@
-import { IStyle, mergeStyles, mergeStyleSets, PrimaryButton, Stack, useTheme } from '@fluentui/react'
+import { IStyle, mergeStyles, mergeStyleSets, PrimaryButton, Separator, Stack, useTheme } from '@fluentui/react'
 import { useIntl } from 'react-intl'
-import { Tile, Title } from './shared'
+import { ContactInfo as ContactInfo } from './contact'
+import { Tile, Title, useContactInfo } from './shared'
 import { i18nString } from './shared/intl'
 
 // const iconClass = mergeStyles({
@@ -14,7 +15,8 @@ const useStyle = () => {
   const theme = useTheme()
   return mergeStyleSets({
     app: {
-      background: theme.palette.neutralLighterAlt,
+      // background: theme.palette.neutralLighterAlt,
+      width: 700,
       height: '100%'
     } as IStyle
   })
@@ -23,16 +25,22 @@ const useStyle = () => {
 export const App = () => {
   const style = useStyle()
   const intl = useIntl()
+
   return (
-    <Stack horizontalAlign='center' className={style.app}>
-      <Title>{i18nString(intl, 'cv.title')}</Title>
+    <div className={style.app}>
+      <ContactInfo />
+      <Separator />
       <Stack>
+        <Tile title={i18nString(intl, 'section.profile')}>
+          <p>Profile text A</p>
+          <p>Profile text B</p>
+        </Tile>
         <Tile title='Summary of Qualifications'>
           <PrimaryButton>ABC</PrimaryButton>
           <p>Thisi a text</p>
         </Tile>
       </Stack>
       <div>Nav</div>
-    </Stack>
+    </div>
   )
 }

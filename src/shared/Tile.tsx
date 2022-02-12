@@ -19,9 +19,9 @@ const useStyles = () => {
 export const Tile: FunctionComponent<TileProps> = ({ title, children }) => {
   const cls = useStyles()
   return (
-    <Stack className={cls} tokens={{ childrenGap: 16 }}>
+    <Stack className={cls} tokens={{ childrenGap: 8 }}>
       <SubTitle>{title}</SubTitle>
-      <Stack tokens={{ childrenGap: 16 }}>{children}</Stack>
+      <Stack tokens={{ childrenGap: 8 }}>{children}</Stack>
     </Stack>
   )
 }

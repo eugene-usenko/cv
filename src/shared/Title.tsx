@@ -1,4 +1,4 @@
-import { mergeStyles, IRawStyle } from '@fluentui/react'
+import { mergeStyles, IRawStyle, useTheme, FontSizes } from '@fluentui/react'
 import { ReactNode } from 'react'
 
 interface TitleProps {
@@ -10,7 +10,7 @@ interface TitleProps {
 export const Title = ({ children, style, className }: TitleProps) => {
   const css = mergeStyles(
     {
-      fontSize: 24,
+      fontSize: FontSizes.size28,
       fontWeight: 600
     },
     style,
