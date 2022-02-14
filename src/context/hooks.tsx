@@ -9,3 +9,4 @@ interface IContact {
   linkedin?: string
 }
 export const useContactInfo = (): IContact => data.contact
+export const useSummaryInfo = (): string[] => data.summary || []

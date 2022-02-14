@@ -3,6 +3,7 @@ import { useIntl } from 'react-intl'
 import { ContactInfo as ContactInfo } from './contact'
 import { Tile, Title, useContactInfo } from './shared'
 import { i18nString } from './shared/intl'
+import { Summary } from './summary'
 
 // const iconClass = mergeStyles({
 //   fontSize: 50,
@@ -29,6 +30,8 @@ export const App = () => {
   return (
     <div className={style.app}>
       <ContactInfo />
+      <Separator />
+      <Summary />
       <Separator />
       <Stack>
         <Tile title={i18nString(intl, 'section.profile')}>

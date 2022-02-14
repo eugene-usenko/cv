@@ -20,7 +20,7 @@ export const Title = ({ children, style, className }: TitleProps) => {
 }
 
 export const SubTitle = ({ children, ...props }: TitleProps) => (
-  <Title {...props} style={{ fontSize: 20 }}>
+  <Title {...props} style={{ fontSize: FontSizes.size16 }}>
     {children}
   </Title>
 )
