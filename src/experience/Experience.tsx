@@ -7,12 +7,13 @@ import { Summary } from './Summary'
 import { HeaderToken } from './HeaderToken'
 import { Technologies } from './Technologies'
 
-const ExperienceItem = ({ role, dates, customer, teamSize, summary, technologies }: IExperiance) => {
+const ExperienceItem = ({ role, dates, customer, teamSize, summary, technologies, employer }: IExperiance) => {
   const intl = useIntl()
   return (
     <Stack>
-      <Stack horizontal verticalAlign='center' tokens={{ childrenGap: 20 }}>
+      <Stack horizontal verticalAlign='center' tokens={{ childrenGap: 16 }}>
         <SubTitle>{role}</SubTitle>
+        <HeaderToken value={employer} iconName='MapPin' title={i18nString(intl, 'experience.employer.title')} />
         <HeaderToken value={dates} iconName='Calendar' title={i18nString(intl, 'experience.dates.title')} />
         <HeaderToken value={customer} iconName='MapPin' title={i18nString(intl, 'experience.customer.title')} />
         <HeaderToken value={teamSize} iconName='Group' title={i18nString(intl, 'experience.team-size.title')} />

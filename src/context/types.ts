@@ -16,7 +16,8 @@ export interface IExperiance {
   summary: string | string[]
   dates: string
   role: string
-  customer: string
-  teamSize: string
+  employer?: string
+  customer?: string
+  teamSize?: string
   technologies: string[]
 }

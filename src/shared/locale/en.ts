@@ -3,6 +3,7 @@ export const messages = {
   'cv.summary': 'Summary',
   'cv.education': 'Education',
 
+  'experience.employer.title': 'Employer',
   'experience.dates.title': 'Working dates',
   'experience.customer.title': 'Customer location',
   'experience.team-size.title': 'Team size'
