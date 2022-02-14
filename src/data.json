@@ -20,7 +20,7 @@
       "summary": [
         "I have couple of side projects on which I working on time to time. There I made full features implementation from top(FE) to bottom(BE) plus CI/CD using Docker/K8S."
       ],
-      "employer": "Selftemployed",
+      "employer": "Selfemployed",
       "dates": "Aug 2015 - Till now",
       "teamSize": "1",
       "technologies": ["NodeJS", "TypeScript", "MongoDB", "Docker/K8S", "Elixir/OTP"]

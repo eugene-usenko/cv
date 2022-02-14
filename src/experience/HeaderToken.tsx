@@ -1,4 +1,5 @@
 import { Icon, mergeStyleSets, Stack, useTheme } from '@fluentui/react'
+import { isBlank } from '../shared'
 
 interface ICustomerProps {
   hasBulletBefore?: boolean
@@ -29,12 +30,12 @@ export const Bullet = () => {
 
 export const HeaderToken = ({ value, title, iconName }: ICustomerProps) => {
   const style = useStyle()
+  if (isBlank(value)) return null
+
   return (
     <Stack horizontal tokens={{ childrenGap: 4 }} verticalAlign='center' className={style.token} title={title}>
-      {/* {hasBulletBefore && <Bullet />} */}
       <Icon iconName={iconName} />
       <span>{value}</span>
-      {/* {hasBulletAfter && <Bullet />} */}
     </Stack>
   )
 }
