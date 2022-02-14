@@ -11,3 +11,12 @@ export interface IEducation {
   name: string
   link?: string
 }
+
+export interface IExperiance {
+  summary: string | string[]
+  dates: string
+  role: string
+  customer: string
+  teamSize: string
+  technologies: string[]
+}

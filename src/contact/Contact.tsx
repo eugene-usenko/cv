@@ -1,5 +1,6 @@
 import { FontSizes, IStyle, mergeStyleSets, Stack, useTheme } from '@fluentui/react'
 import { useContactInfo } from '../shared'
+import { isBlank } from '../shared/string'
 import { ContactAction } from './ContactAction'
 
 const useStyle = () => {
@@ -28,7 +29,10 @@ export const ContactInfo = () => {
   const onPhoneClicked = () => alert('Coming soon!')
   const onLocationClicked = () => alert('Coming soon!')
   const onEmailClicked = () => alert('Coming soon!')
-  const onLinkedinClicked = () => alert('Coming soon!')
+  const onLinkedinClicked = () => {
+    if (isBlank(linkedin)) return
+    window.location.assign(linkedin!)
+  }
 
   return (
     <Stack horizontal verticalAlign='center' horizontalAlign='space-between' className={style.info}>

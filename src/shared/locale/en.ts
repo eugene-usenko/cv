@@ -1,10 +1,11 @@
 export const messages = {
   'cv.title': 'CV',
   'cv.summary': 'Summary',
-  'cv.education': 'Education'
+  'cv.education': 'Education',
 
-  // 'contact.email': 'Email address: {email}',
-  // 'contact.phone': 'Phone number: {phone}',
+  'experience.dates.title': 'Working dates',
+  'experience.customer.title': 'Customer location',
+  'experience.team-size.title': 'Team size'
 
   // 'section.profile': 'Profile',
   // 'section.work-experiance': 'Work Experianse',

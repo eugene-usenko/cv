@@ -2,7 +2,7 @@
   "contact": {
     "name": "Eugene Usenko",
     "position": "TechLead / Software Architect",
-    "phone": "+380966492518",
+    "phone": "",
     "email": "",
     "location": "",
     "linkedin": "https://linkedin.com/in/eugene-usenko",
@@ -16,17 +16,31 @@
   ],
   "experience": [
     {
-      "customer": "US company",
+      "summary": "Hardware‐software complex for automation of a test and metrological verification, automation of parameters registration process and data visualization in real‐time mode.",
       "dates": "Aug 2015 - till now",
       "role": "TeamLead",
-      "summary": "Abx xyz",
-      "team-size": "5 - 15",
+      "customer": "US company",
+      "teamSize": "5-15 team members",
+      "technologies": ["Java", "TypeScript", "ReactJS/Redux"]
+    },
+    {
+      "summary": [
+        "Hardware‐software complex for automation of a test and metrological verification, automation of parameters registration process and data visualization in real‐time mode.",
+        "Hardware‐software complex for automation of a test and metrological verification, automation of parameters registration process and data visualization in real‐time mode."
+      ],
+      "dates": "Aug 2015 - till now",
+      "role": "TeamLead",
+      "customer": "US company",
+      "teamSize": "5-15 team members",
       "technologies": ["Java", "TypeScript", "ReactJS/Redux"]
     }
   ],
   "education": [
     { "name": "PSACEA: Automation of Technological & Manufacturing Processes", "link": "http://pgasa.dp.ua/en/" },
     { "name": "Java OCJP 1.6(1Z0-851)", "link": "https://github.com/eugene-usenko/cv/blob/main/data/1Z0-851.pdf" },
-    { "name": "M101JS: MongoDB for Node.js Developers", "link": "http://university.mongodb.com/course_completion/1ad65bdb-de01-42b0-8fa8-5de09f83" }
+    {
+      "name": "M101JS: MongoDB for Node.js Developers",
+      "link": "http://university.mongodb.com/course_completion/1ad65bdb-de01-42b0-8fa8-5de09f83"
+    }
   ]
 }
