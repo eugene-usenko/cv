@@ -1,7 +1,7 @@
 {
   "contact": {
     "name": "Eugene Usenko",
-    "position": "Techlead / Software Architect",
+    "position": "TechLead / Software Architect",
     "phone": "+380966492518",
     "email": "",
     "location": "",
@@ -11,7 +11,22 @@
   "summary": [
     "I have been working as a software engineer since 2005. Started as a junior software developer and grown up to TechLead/Software Architect.",
     "To me seniority of engineer is not just technical skills in particular area, but rather type and number of work(scope) you are capable to work on. Broader scope like setup project from scratch, build team and development process, CI/CD these are tasks which I lreally love.",
-    "From certain point of time I started building my career as an engineer which can take challagnes and solve them from the idea to getting things on prod. I purpusly got experianse in different directions like desktop, back-end, front-end and mobile application development.",
+    "From certain point of time I started building my career as an engineer which can take challagnes and solve them from the idea to getting things on prod. To be able to do so, I purpusly got experianse in different directions like desktop, back-end, front-end and mobile application development.",
     "Working on positions like Tech Lead/Team Lead it is not possible to avoid management tasks. But in case I have choose or opportunity to work technical stuff, I always pick up that direction."
+  ],
+  "experience": [
+    {
+      "customer": "US company",
+      "dates": "Aug 2015 - till now",
+      "role": "TeamLead",
+      "summary": "Abx xyz",
+      "team-size": "5 - 15",
+      "technologies": ["Java", "TypeScript", "ReactJS/Redux"]
+    }
+  ],
+  "education": [
+    { "name": "PSACEA: Automation of Technological & Manufacturing Processes", "link": "http://pgasa.dp.ua/en/" },
+    { "name": "Java OCJP 1.6(1Z0-851)", "link": "https://github.com/eugene-usenko/cv/blob/main/data/1Z0-851.pdf" },
+    { "name": "M101JS: MongoDB for Node.js Developers", "link": "http://university.mongodb.com/course_completion/1ad65bdb-de01-42b0-8fa8-5de09f83" }
   ]
 }
