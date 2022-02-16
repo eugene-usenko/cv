@@ -6,22 +6,22 @@ import { i18nString } from '../shared/intl'
 import { isBlank } from '../shared/string'
 
 export const Education = () => {
-  const education: IEducation[] = useEducationInfo()
-  const intl = useIntl()
+    const education: IEducation[] = useEducationInfo()
+    const intl = useIntl()
 
-  const onRenderEducationItem = (item: IEducation) => {
-    if (isBlank(item.link)) return <span>{item.name}</span>
-    return <Link href={item.link}>{item.name}</Link>
-  }
+    const onRenderEducationItem = (item: IEducation) => {
+        if (isBlank(item.link)) return <span>{item.name}</span>
+        return <Link href={item.link}>{item.name}</Link>
+    }
 
-  return (
-    <Stack>
-      <SubTitle uppercase={true}>{i18nString(intl, 'cv.education')}</SubTitle>
-      <ul>
-        {education.map((item, key) => (
-          <li key={key}>{onRenderEducationItem(item)}</li>
-        ))}
-      </ul>
-    </Stack>
-  )
+    return (
+        <Stack>
+            <SubTitle uppercase={true}>{i18nString(intl, 'cv.education')}</SubTitle>
+            <ul>
+                {education.map((item, key) => (
+                    <li key={key}>{onRenderEducationItem(item)}</li>
+                ))}
+            </ul>
+        </Stack>
+    )
 }
