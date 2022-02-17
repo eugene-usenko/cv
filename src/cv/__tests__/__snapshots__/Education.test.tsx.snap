@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Education render 1`] = `
+<Stack>
+  <SubTitle
+    uppercase={true}
+  >
+    cv.education
+  </SubTitle>
+  <ul>
+    <li>
+      <StyledLinkBase
+        href="http://pgasa.dp.ua/en/"
+      >
+        PSACEA: Automation of Technological & Manufacturing Processes
+      </StyledLinkBase>
+    </li>
+    <li>
+      <StyledLinkBase
+        href="https://github.com/eugene-usenko/cv/blob/main/doc/1Z0-851.pdf"
+      >
+        Java OCJP 1.6(1Z0-851)
+      </StyledLinkBase>
+    </li>
+    <li>
+      <StyledLinkBase
+        href="http://university.mongodb.com/course_completion/1ad65bdb-de01-42b0-8fa8-5de09f83"
+      >
+        M101JS: MongoDB for Node.js Developers
+      </StyledLinkBase>
+    </li>
+  </ul>
+</Stack>
+`;
