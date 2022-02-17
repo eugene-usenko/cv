@@ -82,7 +82,7 @@
   ],
   "education": [
     { "name": "PSACEA: Automation of Technological & Manufacturing Processes", "link": "http://pgasa.dp.ua/en/" },
-    { "name": "Java OCJP 1.6(1Z0-851)", "link": "https://github.com/eugene-usenko/cv/blob/main/data/1Z0-851.pdf" },
+    { "name": "Java OCJP 1.6(1Z0-851)", "link": "https://github.com/eugene-usenko/cv/blob/main/doc/1Z0-851.pdf" },
     {
       "name": "M101JS: MongoDB for Node.js Developers",
       "link": "http://university.mongodb.com/course_completion/1ad65bdb-de01-42b0-8fa8-5de09f83"
