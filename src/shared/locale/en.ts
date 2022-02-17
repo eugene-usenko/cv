@@ -8,7 +8,8 @@ export const messages = {
     'experience.employer.title': 'Employer',
     'experience.dates.title': 'Working dates',
     'experience.customer.title': 'Customer location',
-    'experience.team-size.title': 'Team size'
+    'experience.team-size.title': 'Team size',
+    'experience.toolbox.title': 'Frameworks & technologies'
 
     // 'section.profile': 'Profile',
     // 'section.work-experiance': 'Work Experianse',

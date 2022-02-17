@@ -1,10 +1,9 @@
 import { IStyle, mergeStyleSets, Pivot, PivotItem } from '@fluentui/react'
 import { useIntl } from 'react-intl'
 import { ContactInfo as ContactInfo } from './contact'
-import { Education } from './education'
-import { Experience } from './experience'
+import { CvTab } from './cv/CvTab'
+import { ProjectList } from './projects/ProjectList'
 import { i18nString } from './shared/intl'
-import { Summary } from './summary'
 
 const useStyle = () => {
     // const theme = useTheme()
@@ -24,13 +23,13 @@ export const App = () => {
     return (
         <div className={style.app}>
             <ContactInfo />
-            <Pivot linkSize='large'>
+            <Pivot linkSize='large' styles={{ itemContainer: { paddingTop: 16 } }}>
                 <PivotItem headerText={i18nString(intl, 'pivot.cv')}>
-                    <Summary />
-                    <Experience />
-                    <Education />
+                    <CvTab />
                 </PivotItem>
-                <PivotItem headerText={i18nString(intl, 'pivot.projects')}>Coming soon!</PivotItem>
+                <PivotItem headerText={i18nString(intl, 'pivot.projects')}>
+                    <ProjectList />
+                </PivotItem>
             </Pivot>
         </div>
     )

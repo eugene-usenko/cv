@@ -1,91 +1,106 @@
 {
-  "contact": {
-    "name": "Eugene Usenko",
-    "position": "TechLead / Software Architect",
-    "phone": "",
-    "email": "",
-    "location": "",
-    "linkedin": "https://linkedin.com/in/eugene-usenko",
-    "github": "https://github.com/eugene-usenko"
-  },
-  "summary": [
-    "I have been working as a software engineer since 2005. Started as a junior software developer and grown up to TechLead/Software Architect.",
-    "To me seniority of engineer is not just technical skills in particular area, but rather type and number of work(scope) you are capable to work on. Broader scope like setup project from scratch, build team and development process, CI/CD these are tasks which I lreally love.",
-    "From certain point of time I started building my career as an engineer which can take challagnes and solve them from the idea to getting things on prod. To be able to do so, I purpusly got experianse in different directions like desktop, back-end, front-end and mobile application development.",
-    "Working on positions like Tech Lead/Team Lead it is not possible to avoid management tasks. But in case I have choose or opportunity to work technical stuff, I always pick up that direction."
-  ],
-  "experience": [
-    {
-      "role": "Full Stack",
-      "summary": [
-        "I have couple of side projects on which I working on time to time. There I made full features implementation from top(FE) to bottom(BE) plus CI/CD using Docker/K8S."
-      ],
-      "employer": "Selfemployed",
-      "dates": "Aug 2015 - Till now",
-      "teamSize": "1",
-      "technologies": ["NodeJS", "TypeScript", "MongoDB", "Docker/K8S", "Elixir/OTP"]
+    "contact": {
+        "name": "Eugene Usenko",
+        "position": "TechLead / Software Architect",
+        "phone": "",
+        "email": "",
+        "location": "",
+        "linkedin": "https://linkedin.com/in/eugene-usenko",
+        "github": "https://github.com/eugene-usenko"
     },
-    {
-      "role": "TeamLead",
-      "summary": [
-        "Head of FE development team. Redesigned architecture from monolith to granular in order to allow other teams and 3-d party developers to deploy their apps as part as our solution. Migrated all FE development from Java/GWT development stack to ReactJS/Redux. Planned and implemented deployment from manual procedures to Docker/Kubernets. Tightly worked with customer on application prototyping. Built development processes like automation/code review/e2e."
-      ],
-      "employer": "Luxoft",
-      "dates": "Aug 2015 - Till now",
-      "customer": "BE company",
-      "teamSize": "5-15",
-      "technologies": ["Java/GWT", "TypeScript", "ReactJS/Redux", "Docker/K8S"]
-    },
-    {
-      "role": "TechLead",
-      "summary": [
-        "Head of refactoring team. Implemented new data layer for highly loaded backed(~100k daily active users)."
-      ],
-      "employer": "Playtika",
-      "dates": "Oct 2014 - Aug 2015",
-      "customer": "IL company",
-      "teamSize": "5-15",
-      "technologies": ["Java", "CouchBase", "MySQL", "Spring IoC"]
-    },
-    {
-      "role": "TechLead",
-      "summary": [
-        "Worked on various project as desktop/back-end/mobile software engineer and TechLead.",
-        "Designed architecute for number of Android applications. Also worked on low level integration of those apps with harware(ZigBee sensors). Implemented video player with low latency video streaming(H264 codec) and made optimization of existing player(MJPEG codec). Redesigned architecture and made new implementation of layered rendering engine(maps and weather)."
-      ],
-      "employer": "SoftServe",
-      "dates": "Oct 2010 - Oct 2014",
-      "customer": "US company",
-      "teamSize": "5-30",
-      "technologies": ["Android", "Java JNI", "C/C++", "Java", "Spring IoC/MVC"]
-    },
-    {
-      "role": "Sr. Software Engineer",
-      "summary": "Worked on server-side logic and Web services implementation. In scope of other project, designed contract and implemented module for integration with other systems. Was part of the group which worked on project relocation to our location. Prepared migration plan and knoledge sharing for local teams.",
-      "employer": "ISD",
-      "dates": "Nov 2008 - Oct 2010",
-      "customer": "US/PL company",
-      "teamSize": "5-30",
-      "technologies": ["Java", "JPA", "EJB", "JAX‐WS", "JBoss"]
-    },
-    {
-      "role": "Software Engineer",
-      "summary": [
-        "My first experiance to work on production software products. Mostly worked on UI implmeneation based on Java farameworks. Also got experianse with low level programming, developing drivers for QNX OS and reverse enginering some linux kernal modules."
-      ],
-      "employer": "RTS-Ukrain",
-      "dates": "Nov 2005 - Oct 2008",
-      "customer": "UA company",
-      "teamSize": "3",
-      "technologies": ["Java", "Java Swing/SWT", "C/C++", "ANTLR", "Netbeans RCP"]
-    }
-  ],
-  "education": [
-    { "name": "PSACEA: Automation of Technological & Manufacturing Processes", "link": "http://pgasa.dp.ua/en/" },
-    { "name": "Java OCJP 1.6(1Z0-851)", "link": "https://github.com/eugene-usenko/cv/blob/main/doc/1Z0-851.pdf" },
-    {
-      "name": "M101JS: MongoDB for Node.js Developers",
-      "link": "http://university.mongodb.com/course_completion/1ad65bdb-de01-42b0-8fa8-5de09f83"
-    }
-  ]
+    "summary": [
+        "I have been working as a software engineer since 2005. Started as a junior software developer and grown up to TechLead/Software Architect.",
+        "To me seniority of engineer is not just technical skills in particular area, but rather type and number of work(scope) you are capable to work on. Broader scope like setup project from scratch, build team and development process, CI/CD these are tasks which I lreally love.",
+        "From certain point of time I started building my career as an engineer which can take challagnes and solve them from the idea to getting things on prod. To be able to do so, I purpusly got experianse in different directions like desktop, back-end, front-end and mobile application development.",
+        "Working on positions like Tech Lead/Team Lead it is not possible to avoid management tasks. But in case I have choose or opportunity to work technical stuff, I always pick up that direction."
+    ],
+    "experience": [
+        {
+            "role": "Full Stack",
+            "summary": [
+                "I have couple of side projects on which I working on time to time. There I made full features implementation from top(FE) to bottom(BE) plus CI/CD using Docker/K8S."
+            ],
+            "employer": "Selfemployed",
+            "dates": "Aug 2015 - Till now",
+            "teamSize": "1",
+            "technologies": ["NodeJS", "TypeScript", "MongoDB", "Docker/K8S", "Elixir/OTP"]
+        },
+        {
+            "role": "TeamLead",
+            "summary": [
+                "Head of FE development team. Redesigned architecture from monolith to granular in order to allow other teams and 3-d party developers to deploy their apps as part as our solution. Migrated all FE development from Java/GWT development stack to ReactJS/Redux. Planned and implemented deployment from manual procedures to Docker/Kubernets. Tightly worked with customer on application prototyping. Built development processes like automation/code review/e2e."
+            ],
+            "employer": "Luxoft",
+            "dates": "Aug 2015 - Till now",
+            "customer": "BE company",
+            "teamSize": "5-15",
+            "technologies": ["Java/GWT", "TypeScript", "ReactJS/Redux", "Docker/K8S"]
+        },
+        {
+            "role": "TechLead",
+            "summary": [
+                "Head of refactoring team. Implemented new data layer for highly loaded backed(~100k daily active users)."
+            ],
+            "employer": "Playtika",
+            "dates": "Oct 2014 - Aug 2015",
+            "customer": "IL company",
+            "teamSize": "5-15",
+            "technologies": ["Java", "CouchBase", "MySQL", "Spring IoC"]
+        },
+        {
+            "role": "TechLead",
+            "summary": [
+                "Worked on various project as desktop/back-end/mobile software engineer and TechLead.",
+                "Designed architecute for number of Android applications. Also worked on low level integration of those apps with harware(ZigBee sensors). Implemented video player with low latency video streaming(H264 codec) and made optimization of existing player(MJPEG codec). Redesigned architecture and made new implementation of layered rendering engine(maps and weather)."
+            ],
+            "employer": "SoftServe",
+            "dates": "Oct 2010 - Oct 2014",
+            "customer": "US company",
+            "teamSize": "5-30",
+            "technologies": ["Android", "Java JNI", "C/C++", "Java", "Spring IoC/MVC"]
+        },
+        {
+            "role": "Sr. Software Engineer",
+            "summary": "Worked on server-side logic and Web services implementation. In scope of other project, designed contract and implemented module for integration with other systems. Was part of the group which worked on project relocation to our location. Prepared migration plan and knoledge sharing for local teams.",
+            "employer": "ISD",
+            "dates": "Nov 2008 - Oct 2010",
+            "customer": "US/PL company",
+            "teamSize": "5-30",
+            "technologies": ["Java", "JPA", "EJB", "JAX‐WS", "JBoss"]
+        },
+        {
+            "summary": [
+                "My first experiance to work on production software products. Mostly worked on UI implmeneation based on Java farameworks. Also got experianse with low level programming, developing drivers for QNX OS and reverse enginering some linux kernal modules."
+            ],
+            "role": "Software Engineer",
+            "dates": "Nov 2005 - Oct 2008",
+            "technologies": ["Java", "Java Swing/SWT", "C/C++", "ANTLR", "Netbeans RCP"]
+        }
+    ],
+
+    "projects": [
+        {
+            "name": "Octavo",
+            "summary": [
+                "My first experiance to work on production software products. Mostly worked on UI implmeneation based on Java farameworks. Also got experianse with low level programming, developing drivers for QNX OS and reverse enginering some linux kernal modules."
+            ],
+            "description": "Hardware‐software complex for automation of a test and metrological verification, automation of parameters registration process and data visualization in real‐time mode.",
+            "employer": "RTS-Ukrain",
+            "role": "Software Engineer",
+            "customer": "UA company",
+            "teamSize": "3",
+            "duration": "3 month",
+            "link": "http://www.rts-soft.com/en/products/octavo/",
+            "technologies": ["Java", "Java SWT", "C", "QNX OS"]
+        }
+    ],
+
+    "education": [
+        { "name": "PSACEA: Automation of Technological & Manufacturing Processes", "link": "http://pgasa.dp.ua/en/" },
+        { "name": "Java OCJP 1.6(1Z0-851)", "link": "https://github.com/eugene-usenko/cv/blob/main/doc/1Z0-851.pdf" },
+        {
+            "name": "M101JS: MongoDB for Node.js Developers",
+            "link": "http://university.mongodb.com/course_completion/1ad65bdb-de01-42b0-8fa8-5de09f83"
+        }
+    ]
 }

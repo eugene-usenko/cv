@@ -11,13 +11,8 @@ const useStyles = () => {
             color: theme.palette.neutralSecondaryAlt
         },
         bullet: {
-            paddingLeft: 5,
-            paddingRight: 5,
-            color: theme.palette.neutralSecondaryAlt
-        },
-        token: {
-            paddingLeft: 8,
-            paddingRight: 8,
+            paddingLeft: 4,
+            paddingRight: 4,
             color: theme.palette.neutralSecondaryAlt
         }
     })

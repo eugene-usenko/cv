@@ -14,10 +14,7 @@ export interface IEducation {
 
 export interface IExperiance {
     summary: string | string[]
-    dates: string
     role: string
-    employer?: string
-    customer?: string
-    teamSize?: string
+    dates: string
     technologies: string[]
 }
