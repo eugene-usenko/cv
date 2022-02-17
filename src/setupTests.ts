@@ -6,3 +6,11 @@ import '@testing-library/jest-dom'
 import { initializeIcons } from '@fluentui/react'
 
 initializeIcons(undefined, { disableWarnings: true })
+
+jest.mock('react-intl', () => ({
+    useIntl: () => ({
+        formatMessage: (i: { id: string }): string => i.id
+    }),
+    IntlProvider: () => 'intl-provider',
+    FormattedMessage: () => 'formatted-message'
+}))

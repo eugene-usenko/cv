@@ -21,8 +21,3 @@ export interface IExperiance {
     teamSize?: string
     technologies: string[]
 }
-
-export enum Tab {
-    CV = 'CV',
-    PROJECTS = 'PROJECTS'
-}

@@ -1,5 +1,5 @@
 import { FontSizes, IStyle, mergeStyleSets, Stack, useTheme } from '@fluentui/react'
-import { useContactInfo } from '../context'
+import { useContactInfo } from '../data'
 import { isBlank } from '../shared/'
 import { ContactAction } from './ContactAction'
 

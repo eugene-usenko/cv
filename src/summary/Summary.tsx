@@ -1,5 +1,5 @@
 import { Stack } from '@fluentui/react'
-import { useSummaryInfo } from '../context'
+import { useSummaryInfo } from '../data'
 
 export const Summary = () => {
     const items: string[] = useSummaryInfo()

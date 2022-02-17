@@ -1,6 +1,6 @@
 import { Link, Stack } from '@fluentui/react'
 import { useIntl } from 'react-intl'
-import { IEducation, useEducationInfo } from '../context'
+import { IEducation, useEducationInfo } from '../data'
 import { SubTitle } from '../shared'
 import { i18nString } from '../shared/intl'
 import { isBlank } from '../shared/string'

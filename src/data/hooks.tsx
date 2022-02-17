@@ -1,5 +1,5 @@
 import { IContact, IEducation, IExperiance } from '.'
-import data from '../data.json'
+import data from './data.json'
 
 export const useContactInfo = (): IContact => data.contact
 export const useSummaryInfo = (): string[] => data.summary || []

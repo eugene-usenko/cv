@@ -1,6 +1,6 @@
 import { IStyle, Label, mergeStyleSets, Separator, Stack, StackItem } from '@fluentui/react'
 import { useIntl } from 'react-intl'
-import { IExperiance, useExperianceInfo } from '../context'
+import { IExperiance, useExperianceInfo } from '../data'
 import { i18nString } from '../shared/intl'
 import { HeaderToken } from './HeaderToken'
 import { Summary } from './Summary'
